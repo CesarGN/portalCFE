@@ -1,5 +1,5 @@
 
-        <?php
-        header('Location: Vistas/principal.php');
-        ?>
+<?php
+header('Location: Vistas/principal.php');
+?>
    
