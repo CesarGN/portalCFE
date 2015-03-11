@@ -10,7 +10,7 @@
         <style>
             .carousel-inner > .item > img,
             .carousel-inner > .item > a > img {
-                width: 10%;
+                width: 30%;
                 margin: auto;
             }
         </style>
@@ -22,28 +22,31 @@
                 <div class="col-xs-4">
                     <img src="../Recursos/CFE.jpg"/>
                 </div>
-                <div class="col‐xs‐4 ">
-                    <h2>Zona De Distribuci&oacute;n <br> <h1>Celaya</h1> </h2>
+                <div class="col‐xs‐2 ">
+                    <h2>Zona De Distribuci&oacute;n <br> Celaya </h2>
+                </div>
+                <div class="col-xs-1">
+                    <img src="../Recursos/BAJIO.jpg"/>
                 </div>
             </div>
             <div class="row">
                 <div class="col‐md‐1">
                     <ul class="list-inline nav nav-tabs">
                         <li class="active"><a href=""><h6>DIRECTORIO</h6></a></li>
-                        <li class="active"><a href=""><h6>SIG</h2></a></li>
+                        <li class="active"><a href=""><h6>SIG</h6></a></li>
                         <li class="active"><a href=""><h6>REGIONALES Y AGENCIAS</h6></a></li>
                         <li class="active"><a href=""><h6>DE &Iacute;NTERES</h6></a></li>
                         <li class="active"><a href=""><h6>&Uacute;TILERIA</h6></a></li>
                         <li class="active"><a href=""><h6>CFE-REVISTA</h6></a></li>
                         <li class="active"><a href=""><h6>CONTROL DE REUNIONES</h6></a></li>
                         <li class="active"><a href=""><h6>HERMES</h6></a></li>
-                        <li class="active"><a href=""><h6>Sub9</h6></a></li>
+                        <li class="active"><a href=""><h6></h6></a></li>
                         <li class="active"><a href=""><h6>Sub10</h6></a></li>
                     </ul>
                 </div>
             </div>
             <div class="row">
-                <div class="col‐xs‐4">
+                <div class="col‐md‐3">
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
@@ -56,26 +59,26 @@
                         <div class="carousel-inner" role="listbox">
 
                             <div class="item active">
-                                <img src="../Recursos/CFE.jpg" alt="Chania" width="460" height="345">
+                                <img src="../Recursos/CFE.jpg" alt="ADMON" width="260" height="145">
                                 <div class="carousel-caption">
-                                    <h3>Chania</h3>
-                                    <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                                    <h3>ADMINISTRACI&Oacute;N</h3>
+                                    <p>.</p>
                                 </div>
                             </div>
 
                             <div class="item">
-                                <img src="../Recursos/BAJIO.jpg" alt="Chania" width="460" height="345">
+                                <img src="../Recursos/BAJIO.jpg" alt="ATENCI&Oacute;N AL CLIENTE" width="260" height="145">
                                 <div class="carousel-caption">
-                                    <h3>Chania</h3>
-                                    <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                                    <h3>ATENCI&Oacute;N AL CLIENTE</h3>
+                                    <p>.</p>
                                 </div>
                             </div>
 
                             <div class="item">
-                                <img src="../Recursos/CFE.jpg" alt="Flower" width="460" height="345">
+                                <img src="../Recursos/CFE.jpg" alt="FACTURACI&Oacute;N Y COBRANZA" width="260" height="145">
                                 <div class="carousel-caption">
-                                    <h3>Flowers</h3>
-                                    <p>Beatiful flowers in Kolymbari, Crete.</p>
+                                    <h3>FACTURACI&Oacute;N Y COBRANZA</h3>
+                                    <p>.</p>
                                 </div>
                             </div>
                         </div>
@@ -94,7 +97,7 @@
 
                     </p>
                 </div>
-                <div class="col‐xs‐4 col‐xs‐offset‐1">
+                <div class="col‐md‐4 col‐md‐offset‐1">
                     <h1>VISIÓN</h1>
                     <p>  
                         Una empresa de clase mundial que participa competitivamente en la satisfacción de la demanda.
@@ -105,15 +108,12 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-
-
-            </div>
         </div>
 
 
         <script src="../Librerias/bootstrap/js/bootstrap.min.js"></script>
-        <script src="../Librerias/bootstrap/js/jquery.js"></script>
+        <script src="../Librerias/bootstrap/js/jquery.js"></script>-->
+        
     </body>
 </html>
 
