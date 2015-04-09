@@ -7,22 +7,7 @@
         <title>Portal</title>
         <link href="bootstrap-3.3.2-dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="bootstrap-3.3.2-dist/ext/propios.css" rel="stylesheet">
-        <script languaje="javascript">
-        
-//            function modall(tit,ur,descri){
-//    
-//                    document.getElementById('titulo').innerHTML=tit;
-//                    document.getElementById('imagen').setAttribute('src', "../Recursos/revista/"+ ur);
-//                    document.getElementById('descripcion').innerHTML=descri;
-//    
-//                $('#modalito').modal({
-//                    show: 'true'
-//                });
-//
-//                 //alert(tit + " " + descri + " "+ ur);  
-//   
-//            }
-        </script>
+    
 
         <script src="bootstrap-3.3.2-dist/ext/ie-emulation-modes-warning.js"></script>
         <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>-->
@@ -56,7 +41,7 @@
                 <li role="presentation" class="active"><a href="principal.php">Inicio</a></li>
                 <li role="presentation" class="active"><a href="">Directorio</a></li>
                 <li role="presentation" class="active"><a href="">Regionales y agencias</a></li>
-                <li role="presentation" class="active"><a href="">Inter&eacute;s</a></li>
+                <li role="presentation" class="active"><a href="interes.php?cve=2">Inter&eacute;s</a></li>
                 <li role="presentation" class="active"><a href="revista.php?cve=1" target="_self">Revista</a></li>
                 <li role="presentation" class="active"><a href="">Mapa del sitio</a></li>    
                 <?php $var = "hola mundo";

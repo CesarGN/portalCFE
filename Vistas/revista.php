@@ -31,8 +31,8 @@ for ($i = 0; $i < sizeof($datos); $i++) {
 
     <div class="<?php echo $class; ?>">
         <div class="thumbnail centrar sombra_gris">
-            <h5><?php echo $datos[$i]['TITULO']; ?></h5>';
-            <img  onclick="modall(' <?php echo $datos[$i]['TITULO']; ?> ',' <?php echo $datos[$i]['URL']; ?> ',' <?php echo $datos[$i]['DESCRIPCION']; ?> ')"  class="img_revista img-rounded" src = "../Recursos/revista/<?php echo $datos[$i]['URL']; ?>" alt = "..." />
+            <h5><?php echo $datos[$i]['TITULO']; ?></h5>
+            <img  onclick="modall(' <?php echo $datos[$i]['TITULO']; ?> ','<?php echo $datos[$i]['URL']; ?> ',' <?php echo $datos[$i]['DESCRIPCION']; ?> ')"  class="img_revista img-rounded" src = "../Recursos/revista/<?php echo $datos[$i]['URL']; ?>" alt = "..." />
         </div>
     </div>
 
