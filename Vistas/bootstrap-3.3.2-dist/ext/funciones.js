@@ -1,10 +1,17 @@
 
 
-function func_modal(url){
+function modall(tit,ur,descri){
     
-    var imagen= document.getElement("img"); 
-    imagen.setAttribute("src", "../Recursos/revista/"+url); 
-    document.write("../Recursos/revista/"+url);
+//    document.getElementById('titulo').innerHTML=tit;
+//    document.getElementById('imagen').setAttribute('src', "../Recursos/revista/"+ ur);
+//    document.getElementById('descripcion').innerHTML=descri;
+    
+    $('#modal').modal({
+        show: 'true'
+    });
+
+   // alert(titulo + " " + descripcion + " "+ url);  
+   
 }
 
 

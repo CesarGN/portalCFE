@@ -93,10 +93,14 @@ root {
 
 }
 
-
 .img_revista{
     width: 80%; 
     height: 350px !important; 
+    margin: 0 auto;
+}
+.img_revista_toggle{
+    width: 30%; 
+    height: 250px !important; 
     margin: 0 auto;
 }
 

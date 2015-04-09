@@ -7,17 +7,29 @@
         <title>Portal</title>
         <link href="bootstrap-3.3.2-dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="bootstrap-3.3.2-dist/ext/propios.css" rel="stylesheet">
+        <script languaje="javascript">
+        
+            function modall(tit,ur,descri){
+    
+                //    document.getElementById('titulo').innerHTML=tit;
+                //    document.getElementById('imagen').setAttribute('src', "../Recursos/revista/"+ ur);
+                //    document.getElementById('descripcion').innerHTML=descri;
+    
+//                $('#modalito').modal({
+//                    show: 'true'
+//                });
+
+                 alert(tit + " " + descri + " "+ ur);  
+   
+            }
+        window.onload=function(){
+            modall();
+        }
+        </script>
 
         <script src="bootstrap-3.3.2-dist/ext/ie-emulation-modes-warning.js"></script>
         <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>-->
-        <script type="text/javascript" >
-            function func_modal(parametro){
-                  alert("El resultado es ");
-                  
-//                document.getElementById("img_mod").setAttribute("src", "../Recursos/revista/"+url); 
-              //  document.write("../Recursos/revista/"+url);
-            }
-        </script>
+
 
     </head>
     <body>
@@ -50,7 +62,8 @@
                 <li role="presentation" class="active"><a href="">Inter&eacute;s</a></li>
                 <li role="presentation" class="active"><a href="revista.php?cve=1" target="_self">Revista</a></li>
                 <li role="presentation" class="active"><a href="">Mapa del sitio</a></li>    
-                <?php $var="hola mundo";
-                echo '<li onclick="func_modal('.$var.')" role="presentation" class="active"><a href="">Contacto</a></li> '    ?>
+                <?php $var = "hola mundo";
+                echo '<li onclick="func_modal(' . $var . ')" role="presentation" class="active"><a href="">Contacto</a></li> '
+                ?>
             </ul>
         </div>
