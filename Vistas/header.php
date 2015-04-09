@@ -9,22 +9,19 @@
         <link href="bootstrap-3.3.2-dist/ext/propios.css" rel="stylesheet">
         <script languaje="javascript">
         
-            function modall(tit,ur,descri){
-    
-                //    document.getElementById('titulo').innerHTML=tit;
-                //    document.getElementById('imagen').setAttribute('src', "../Recursos/revista/"+ ur);
-                //    document.getElementById('descripcion').innerHTML=descri;
-    
+//            function modall(tit,ur,descri){
+//    
+//                    document.getElementById('titulo').innerHTML=tit;
+//                    document.getElementById('imagen').setAttribute('src', "../Recursos/revista/"+ ur);
+//                    document.getElementById('descripcion').innerHTML=descri;
+//    
 //                $('#modalito').modal({
 //                    show: 'true'
 //                });
-
-                 alert(tit + " " + descri + " "+ ur);  
-   
-            }
-        window.onload=function(){
-            modall();
-        }
+//
+//                 //alert(tit + " " + descri + " "+ ur);  
+//   
+//            }
         </script>
 
         <script src="bootstrap-3.3.2-dist/ext/ie-emulation-modes-warning.js"></script>
